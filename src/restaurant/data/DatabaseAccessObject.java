@@ -1,5 +1,6 @@
 package restaurant.data;
 
-public class DatabaseAccessObject {
+public class DatabaseAccessObject 
+{
 
 }
