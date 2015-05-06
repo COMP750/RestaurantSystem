@@ -31,7 +31,6 @@ public class Login extends RPanel
 	{
 		Login awin = new Login();
 		awin.setVisible(true);		
-
 	}
 
 }
