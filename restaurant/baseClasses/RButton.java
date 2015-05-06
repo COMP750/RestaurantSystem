@@ -2,10 +2,9 @@ package restaurant.baseClasses;
 
 import java.awt.*;
 import java.awt.event.*;
-
 import javax.swing.*;
 
-public class PanelButton extends JButton implements ActionListener, MouseListener 
+public class RButton extends JButton implements ActionListener, MouseListener 
 {
 
 	public void PanelButton() 
