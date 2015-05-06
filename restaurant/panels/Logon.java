@@ -1,7 +1,7 @@
 package restaurant.panels;
 
 
-//Comment
+//Comment 1
 import java.awt.*;
 import javax.swing.*;
 import restaurant.baseClasses.*;
