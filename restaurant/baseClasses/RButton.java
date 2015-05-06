@@ -7,9 +7,14 @@ import javax.swing.*;
 public class RButton extends JButton implements ActionListener, MouseListener 
 {
 
-	public void PanelButton() 
+	public RButton() 
 	{
 		this.setBackground(Color.gray);
+	}
+	
+	public RButton(String buttonText) 
+	{
+		this.setText(buttonText);		
 	}
 	
 	@Override
