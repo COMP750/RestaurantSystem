@@ -1,7 +1,8 @@
 package restaurant.panels;
 
-import javax.swing.*;
 import java.awt.*;
+import javax.swing.*;
+
 
 public class Login extends JFrame 
 {
@@ -12,7 +13,8 @@ public class Login extends JFrame
 	
 	public static void main(String[] args) 
 	{
-		
+		Login awin = new Login();
+				
 
 	}
 
