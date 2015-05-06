@@ -4,15 +4,15 @@ import java.awt.*;
 import javax.swing.*;
 import restaurant.baseClasses.*;
 
-public class Login extends RPanel 
+public class Logon extends RPanel 
 {
 	
 	//Declare Components
 	RButton btnOk, btnCancel; 
 	JTextField txtUserName, txtPassword;
 	JLabel lblUserName, lblPassword;
-	
-	public Login()
+			
+	public Logon()
 	{		
 		//Set Layout Properties
 		this.setLayout(new FlowLayout());				
@@ -29,7 +29,7 @@ public class Login extends RPanel
 	
 	public static void main(String[] args) 
 	{
-		Login awin = new Login();
+		Logon awin = new Logon();
 		awin.setVisible(true);		
 	}
 
